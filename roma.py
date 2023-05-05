@@ -1,0 +1,46 @@
+num = 90
+final = ""
+while num != 0:
+    if num >= 1000000:
+        final += "CCCCIϽϽϽϽ"
+        num -= 1000000
+    elif num >= 500000:
+        final += "IϽϽϽϽ"
+        num -= 500000
+    elif num >= 100000:
+        final += "CCCIϽϽϽ"
+        num -= 100000
+    elif num >= 50000:
+        final += "IϽϽϽ"
+        num -= 50000
+    elif num >= 10000:
+        final += "CCIϽϽ"
+        num -= 10000
+    elif num >= 5000:
+        final += "IϽϽ"
+        num -= 5000
+    elif num >= 1000:
+        final += "M"
+        num -= 1000
+    elif num >= 500:
+        final += "D"
+        num -= 500
+    elif num >= 100:
+        final += "C"
+        num -= 100
+    elif num >= 50:
+        final += "L"
+        num -= 50
+    elif num >= 10:
+        final += "X"
+        num -= 10
+    elif num >= 5:
+        final += "V"
+        num -= 5
+    elif num == 4:
+        final += "IV"
+        num -= 4
+    elif num == 1:
+        final += "I"
+        num -= 1
+print(final)

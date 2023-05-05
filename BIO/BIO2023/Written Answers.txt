@@ -1,0 +1,8 @@
+1b 832040
+1c 22100
+1d 1862387694
+2b 1
+2c 122 from III, 563 from LIV
+2d 79
+3b 288
+3c 108 for 2 moves, 648 for 4 moves
